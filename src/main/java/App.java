@@ -18,13 +18,6 @@ public class App{
         }, new VelocityTemplateEngine());
 
 
-//        get("tasks/new", (request, response) -> {
-//            Map<String, Object> model = new HashMap<String, Object>();
-//            model.put("template", "templates/task-form.vtl");
-//            return new ModelAndView(model, layout);
-//        }, new VelocityTemplateEngine());
-//
-//
 //        get("/tasks", (request, response) -> {
 //            Map<String, Object> model = new HashMap<String, Object>();
 //            model.put("tasks", Task.all());
