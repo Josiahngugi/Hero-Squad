@@ -39,6 +39,7 @@ public class App{
 
 
 
+//        get method for displaying all new created Squads
         get("/categories", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("categories", Category.all());
