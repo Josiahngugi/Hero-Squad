@@ -10,6 +10,8 @@ public class Task {
     private static List<Task> instances = new ArrayList<Task>();
     private int mId;
 
+
+//    Constructor with hero characteristics
     public Task(String description,String age,String power) {
         mDescription = description;
         mage=age;
