@@ -1,6 +1,7 @@
 import java.util.List;
 import java.util.ArrayList;
 
+//construtor with Squad category Characteristics
 public class Category {
     private String mName;
     private static List<Category> instances = new ArrayList<Category>();
@@ -10,6 +11,7 @@ public class Category {
     private String msize;
     private List<Task> mTasks;
 
+//    method that holds Squad properties
     public Category(String name,String dedication,String size) {
         mName = name;
         mdedication=dedication;
