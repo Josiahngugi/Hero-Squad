@@ -12,7 +12,7 @@ public class CategoryTest {
 
     @Test
     public void getName_categoryInstantiatesWithName_Home() {
-        Category testCategory = new Category("Home","Sexism");
+        Category testCategory = new Category("Home","sexism","15");
         assertEquals("Home", testCategory.getName());
     }
 
