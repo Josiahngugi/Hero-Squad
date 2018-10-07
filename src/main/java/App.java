@@ -56,6 +56,7 @@ public class App{
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
+//        get method for displaying individual hero created
         get("categories/:id/tasks/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             Category category = Category.find(Integer.parseInt(request.params(":id")));
@@ -63,6 +64,7 @@ public class App{
             model.put("template", "templates/category-tasks-form.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
+
 
         post("/tasks", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
