@@ -21,6 +21,7 @@ public class Task {
 
     }
 
+//    Getter method collecting hero descritpion character
     public String getDescription() {
 
         return mDescription;
