@@ -25,7 +25,7 @@ public class CategoryTest {
     }
     @Test
     public void clear_emptiesAllCategoriesFromList_0() {
-        Category testCategory = new Category("Home","");
+        Category testCategory = new Category("Home","racism","6");
         Category.clear();
         assertEquals(Category.all().size(), 0);
 
