@@ -23,6 +23,7 @@ public class Category {
 
     }
 
+//    method that herros in an array
     public void addTask(Task task) {
         mTasks.add(task);
     }
