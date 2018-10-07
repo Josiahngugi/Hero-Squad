@@ -19,15 +19,6 @@ public class App{
 
 
 //
-//        get("/tasks/:id", (request, response) -> {
-//            HashMap<String, Object> model = new HashMap<String, Object>();
-//            Task task = Task.find(Integer.parseInt(request.params(":id")));
-//            model.put("task", task);
-//            model.put("template", "templates/task.vtl");
-//            return new ModelAndView(model, layout);
-//        }, new VelocityTemplateEngine());
-//
-//
 //        post("/tasks", (request, response) -> {
 //            Map<String, Object> model = new HashMap<String, Object>();
 //            String description = request.queryParams("description");
