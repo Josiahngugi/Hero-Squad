@@ -31,6 +31,7 @@ public class Task {
 
         return mage;
     }
+//    getter method return Specialpower of the hero
     public String getMpower(){
         return mpower;
     }
