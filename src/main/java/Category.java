@@ -30,6 +30,7 @@ public class Category {
 
 //    getter method return getname characteristic of the Hero
     public String getName(){return mName;}
+//    getter method return description of the Hero
     public String getDedication(){return mdedication;}
     public String getsize(){return msize;}
 
