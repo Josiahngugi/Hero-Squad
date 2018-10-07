@@ -42,6 +42,7 @@ public class Category {
         return mTasks;
     }
 
+//    method that puts all categories in array
     public static List<Category> all() {
         return instances;
     }
