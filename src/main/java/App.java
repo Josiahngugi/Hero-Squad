@@ -19,6 +19,7 @@ public class App{
         }, new VelocityTemplateEngine());
 
 
+//        get method for collecting all squads created
         get("/categories/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("template", "templates/category-form.vtl");
