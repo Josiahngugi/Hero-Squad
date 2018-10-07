@@ -11,6 +11,7 @@ public class App{
         staticFileLocation("/public");
         String layout = "templates/layout.vtl";
 
+//        get method for index
         get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("template", "templates/index.vtl");
