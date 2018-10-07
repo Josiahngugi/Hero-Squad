@@ -18,8 +18,8 @@ public class CategoryTest {
 
     @Test
     public void all_returnsAllInstancesOfCategory_true() {
-        Category firstCategory = new Category("Home","fight");
-        Category secondCategory = new Category("Work","sexism");
+        Category firstCategory = new Category("Home","corruption","30");
+        Category secondCategory = new Category("Work","racism","5");
         assertEquals(true, Category.all().contains(firstCategory));
         assertEquals(true, Category.all().contains(secondCategory));
     }
