@@ -26,6 +26,7 @@ public class Task {
 
         return mDescription;
     }
+//    Getter method return age character of the hero
     public String getAge() {
 
         return mage;
