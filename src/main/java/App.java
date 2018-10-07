@@ -47,6 +47,7 @@ public class App{
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
+//        get method for creation of indiviual squad
         get("/categories/:id", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             Category category = Category.find(Integer.parseInt(request.params(":id")));
