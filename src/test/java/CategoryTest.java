@@ -5,7 +5,7 @@ import static org.junit.Assert.assertEquals;
 public class CategoryTest {
     @Test
     public void category_instantiatesCorrectly_true() {
-        Category testCategory = new Category("Home","fight");
+        Category testCategory = new Category("Home","fight","20");
         assertEquals(true, testCategory instanceof Category);
     }
 
