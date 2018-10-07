@@ -79,6 +79,7 @@ public class App{
 
             category.addTask(newTask);
 
+//            model for success addition of new Hero
             model.put("category", category);
             model.put("template", "templates/category-tasks-success.vtl");
             return new ModelAndView(model, layout);
