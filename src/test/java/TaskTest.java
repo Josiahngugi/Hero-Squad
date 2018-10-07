@@ -25,7 +25,7 @@ public class TaskTest {
 
     @Test
     public void find_returnsTaskWithSameId_secondTask() {
-        Task firstTask = new Task("fight racism","6","fenism");
+        Task firstTask = new Task("fight racism","6","feminism");
         Task secondTask = new Task("fight corruption","8","kill defaults");
         assertEquals(Task.find(secondTask.getId()), secondTask);
     }
