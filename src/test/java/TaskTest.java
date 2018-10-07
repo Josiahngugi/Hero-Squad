@@ -5,7 +5,7 @@ import static junit.framework.TestCase.assertEquals;
 public class TaskTest {
     @Test
     public void all_returnsAllInstancesOfTask_true() {
-        Task firstTask = new Task("Fight racasims","6","sexism");
+        Task firstTask = new Task("Fight racism","6","sexism");
         Task secondTask = new Task("Buy druga","7","fight");
         assertEquals(true, Task.all().contains(firstTask));
         assertEquals(true, Task.all().contains(secondTask));
