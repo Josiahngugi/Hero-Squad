@@ -28,6 +28,7 @@ public class Category {
         mTasks.add(task);
     }
 
+//    getter method return getname characteristic of the Hero
     public String getName(){return mName;}
     public String getDedication(){return mdedication;}
     public String getsize(){return msize;}
