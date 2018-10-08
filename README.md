@@ -53,7 +53,19 @@ The program is designed and developed using latest Technology, Hence making it S
 
 ## Program Specs.
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) latest installable version of Markdownify for Windows, macOS and Linux.
+ User Create Squad .
+    Input: Squad Name
+    Output : true
+    NEXT:
+    Input: Squad Size and Special powers
+    Output:Squad created successfully.
+    NEXT: 
+    Uer creates Hero
+    Input : Hero Name,Inside a specific Squad
+    Output :true
+    Next:
+    Input : Hero Name,Age and Special Power
+    Output :Hero created
 
 ## How to Use
 
