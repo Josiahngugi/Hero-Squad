@@ -57,15 +57,15 @@ The program is designed and developed using latest Technology, Hence making it S
     Input: Squad Name<br>
     Output : true<br>
     NEXT:<br>
-    Input: Squad Size and Special powers
-    Output:Squad created successfully.
-    NEXT: 
-    Uer creates Hero
-    Input : Hero Name,Inside a specific Squad
-    Output :true
-    Next:
-    Input : Hero Name,Age and Special Power
-    Output :Hero created
+    Input: Squad Size and Special powers<br>
+    Output:Squad created successfully.<br>
+    NEXT: <br>
+    Uer creates Hero<br>
+    Input : Hero Name,Inside a specific Squad<br>
+    Output :true<br>
+    Next:<br>
+    Input : Hero Name,Age and Special Power<br>
+    Output :Hero created<br>
 
 ## How to Use
 
