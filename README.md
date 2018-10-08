@@ -46,7 +46,7 @@
 The program is designed and developed using latest Technology, Hence making it Scalable and flexible.The following are Technologies USed:
 *Java<br>
 *Spark<br>
-*Boostrap>br>
+*Boostrap><br>
 *Html 5<br>
 *Css
 
