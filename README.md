@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="#"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
   <br>
   Hero Squad
   <br>
@@ -9,11 +9,11 @@
 <h4 align="center">Hero Squad  program where Squads Acts against each other <a href="#" target="_blank">Hero Squad</a>.</h4>
 
 <p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
+  <a href="#">
     <img src="https://badge.fury.io/js/electron-markdownify.svg"
          alt="Gitter">
   </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
+  <a href="#"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
   <a href="https://saythanks.io/to/amitmerchant1990">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
   </a>
@@ -43,7 +43,7 @@
 
 ## Technologies Used
 
-The program is designed and developed using latest Technology, Hence making it Scalable and flexible.The following are Technologies USed:
+The program is designed and developed using latest Technology, Hence making it Scalable and flexible.The following are Technologies USed:<br>
 *Java<br>
 *Spark<br>
 *Bootstrap<br>
@@ -73,7 +73,7 @@ This software uses following open source packages.
 
 - [Java Runtime Environment :V9](#)
 - [Latest Browsers](#)
-- [Latest SDK](https://github.com/chjj/marked)<br>
+- [Latest SDK](#)<br>
 * Clone or Deploy this program from my Github Repository, or Fork It<br>
 *Initialise It in your Local Machine<br>
 *Open it With Lastest IDE
