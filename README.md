@@ -116,5 +116,5 @@ MIT
 ---
 
 > [alfar.co.ke](#) &nbsp;&middot;&nbsp;
-> GitHub [@JosiahNggui](https://github.com/Josiahngugi/Hero-Squad.git) &nbsp;&middot;&nbsp;
-> Twitter [@JosiahNgugi](#)
+> GitHub [@Josiah Ngugi](https://github.com/Josiahngugi/Hero-Squad.git) &nbsp;&middot;&nbsp;
+> Twitter [@Josiah Ngugi](#)
