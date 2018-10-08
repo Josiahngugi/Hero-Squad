@@ -2,17 +2,17 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Task {
+public class Hero {
     private String mDescription;
     private String mage;
     private String mpower;
     private LocalDateTime mCreatedAt;
-    private static List<Task> instances = new ArrayList<Task>();
+    private static List<Hero> instances = new ArrayList<Hero>();
     private int mId;
 
 
 //    Constructor with hero characteristics
-    public Task(String description,String age,String power) {
+    public Hero(String description, String age, String power) {
         mDescription = description;
         mage=age;
         mpower=power;
@@ -36,7 +36,7 @@ public class Task {
         return mpower;
     }
 
-    public static List<Task> all() {
+    public static List<Hero> all() {
         return instances;
     }
     public static void clear() {
@@ -45,7 +45,7 @@ public class Task {
     public int getId() {
         return mId;
     }
-    public static Task find(int id) {
+    public static Hero find(int id) {
         return instances.get(id - 1);
     }
 }

@@ -9,7 +9,7 @@ public class Squad {
     private String mname;
     private String mdedication;
     private String msize;
-    private List<Task> mTasks;
+    private List<Hero> mHeroes;
 
 //    method that holds Squad properties
     public Squad(String name, String dedication, String size) {
@@ -18,14 +18,14 @@ public class Squad {
         msize=size;
         instances.add(this);
         mId = instances.size();
-        mTasks = new ArrayList<Task>();
+        mHeroes = new ArrayList<Hero>();
 
 
     }
 
 //    method that herros in an array
-    public void addTask(Task task) {
-        mTasks.add(task);
+    public void addTask(Hero Hero) {
+        mHeroes.add(Hero);
     }
 
 //    getter method return getname characteristic of the Hero
@@ -38,8 +38,8 @@ public class Squad {
 
 
 
-    public List<Task> getTasks() {
-        return mTasks;
+    public List<Hero> getTasks() {
+        return mHeroes;
     }
 
 //    method that puts all categories in array

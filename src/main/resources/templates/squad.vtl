@@ -2,15 +2,15 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="col-md-10">
-<h1 class="text-center text-danger">$squad.getName() tasks:</h1>
+<h1 class="text-center text-danger">$Hero.getName() tasks:</h1>
 
 <ul>
-    #foreach($task in $squad.getTasks())
+    #foreach($Hero in $Hero.getTasks())
     <li>
-        <P>Hero Properties <p class="text-success">Squad properties &nbsp;<a class="btn btn-outline-info" href="/categories/$squad.getId()/tasks/new">Add new Hero</a>&nbsp;<a class="btn btn-outline-success" href="/categories">Back</a></p><hr></P>
-        <span class="text-danger">Hero name:</span> $task.getDescription()<br>
-        <span class="text-danger">Hero Age:</span>$task.getAge()<br>
-        <span class="text-danger">Hero Special Power:</span>$task.getMpower()
+        <P>Hero Properties <p class="text-success">Squad properties &nbsp;<a class="btn btn-outline-info" href="/categories/$Hero.getId()/tasks/new">Add new Hero</a>&nbsp;<a class="btn btn-outline-success" href="/categories">Back</a></p><hr></P>
+        <span class="text-danger">Hero name:</span> $Hero.getDescription()<br>
+        <span class="text-danger">Hero Age:</span>$Hero.getAge()<br>
+        <span class="text-danger">Hero Special Power:</span>$Hero.getMpower()
 
     </li><br>
     #end
