@@ -11,6 +11,19 @@ public class App{
         staticFileLocation("/public");
         String layout = "templates/layout.vtl";
 
+//        heroku
+
+        ProcessBuilder process = new ProcessBuilder();
+        Integer port;
+        if (process.environment().get("PORT") != null) {
+            port = Integer.parseInt(process.environment().get("PORT"));
+        } else {
+            port = 4567;
+        }
+
+        setPort(port);
+
+
 //        get method for index
         get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
