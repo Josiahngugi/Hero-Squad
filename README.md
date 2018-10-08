@@ -53,10 +53,10 @@ The program is designed and developed using latest Technology, Hence making it S
 
 ## Program Specs.
 
- User Create Squad .
-    Input: Squad Name
-    Output : true
-    NEXT:
+ User Create Squad .<br>
+    Input: Squad Name<br>
+    Output : true<br>
+    NEXT:<br>
     Input: Squad Size and Special powers
     Output:Squad created successfully.
     NEXT: 
