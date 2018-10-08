@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">Hero Squad  program where Squads Acts against each other <a href="#" target="_blank">Hero Squad</a>.</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
@@ -24,10 +24,10 @@
 
 <p align="center">
   <a href="#key-features">Key Features</a> •
-  <a href="#how-to-use">How To Use</a> •
-  <a href="#download">Download</a> •
-  <a href="#credits">Credits</a> •
-  <a href="#related">Related</a> •
+  <a href="#Technologies Used">Technologies</a> •
+  <a href="#Program Specs.">Program Specs</a> •
+  <a href="#How to Use">How to Use</a> •
+  <a href="#Deployment">Deployment</a> •
   <a href="#license">License</a>
 </p>
 
@@ -53,7 +53,7 @@
 * Cross platform
   - Windows, macOS and Linux ready.
 
-## How To Use
+## Technologies Used
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
@@ -74,11 +74,11 @@ $ npm start
 Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
 
 
-## Download
+## Program Specs.
 
 You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) latest installable version of Markdownify for Windows, macOS and Linux.
 
-## Credits
+## How to Use
 
 This software uses following open source packages.
 
@@ -90,7 +90,7 @@ This software uses following open source packages.
 - Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
 - [highlight.js](https://highlightjs.org/)
 
-## Related
+## Deployment
 
 [markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
 
