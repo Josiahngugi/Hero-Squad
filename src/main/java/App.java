@@ -22,7 +22,7 @@ public class App{
 //        get method for collecting all squads created
         get("/categories/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            model.put("template", "templates/category-form.vtl");
+            model.put("template", "templates/squad-form.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
@@ -32,8 +32,8 @@ public class App{
             String name = request.queryParams("name");
             String dedication=request.queryParams("dedication");
             String size = request.queryParams("size");
-            Category newCategory = new Category(name,dedication,size);
-            model.put("template", "templates/category-success.vtl");
+            Squad newSquad = new Squad(name,dedication,size);
+            model.put("template", "templates/squad-success.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
@@ -42,26 +42,26 @@ public class App{
 //        get method for displaying all new created Squads
         get("/categories", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            model.put("categories", Category.all());
-            model.put("template", "templates/categories.vtl");
+            model.put("categories", Squad.all());
+            model.put("template", "templates/squads.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
 //        get method for creation of indiviual squad
         get("/categories/:id", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            Category category = Category.find(Integer.parseInt(request.params(":id")));
-            model.put("category", category);
-            model.put("template", "templates/category.vtl");
+            Squad squad = Squad.find(Integer.parseInt(request.params(":id")));
+            model.put("squad", squad);
+            model.put("template", "templates/squad.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
 //        get method for displaying individual hero created
         get("categories/:id/tasks/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            Category category = Category.find(Integer.parseInt(request.params(":id")));
-            model.put("category", category);
-            model.put("template", "templates/category-tasks-form.vtl");
+            Squad squad = Squad.find(Integer.parseInt(request.params(":id")));
+            model.put("squad", squad);
+            model.put("template", "templates/squad-hero-form.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
@@ -70,18 +70,18 @@ public class App{
         post("/tasks", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
 
-            Category category = Category.find(Integer.parseInt(request.queryParams("categoryId")));
+            Squad squad = Squad.find(Integer.parseInt(request.queryParams("categoryId")));
 
             String description = request.queryParams("description");
             String age=request.queryParams("age");
             String power=request.queryParams("power");
             Task newTask = new Task(description,age,power);
 
-            category.addTask(newTask);
+            squad.addTask(newTask);
 
 //            model for success addition of new Hero
-            model.put("category", category);
-            model.put("template", "templates/category-tasks-success.vtl");
+            model.put("squad", squad);
+            model.put("template", "templates/squad-hero-success.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 

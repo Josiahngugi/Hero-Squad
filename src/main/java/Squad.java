@@ -2,9 +2,9 @@ import java.util.List;
 import java.util.ArrayList;
 
 //construtor with Squad category Characteristics
-public class Category {
+public class Squad {
     private String mName;
-    private static List<Category> instances = new ArrayList<Category>();
+    private static List<Squad> instances = new ArrayList<Squad>();
     private int mId;
     private String mname;
     private String mdedication;
@@ -12,7 +12,7 @@ public class Category {
     private List<Task> mTasks;
 
 //    method that holds Squad properties
-    public Category(String name,String dedication,String size) {
+    public Squad(String name, String dedication, String size) {
         mName = name;
         mdedication=dedication;
         msize=size;
@@ -43,7 +43,7 @@ public class Category {
     }
 
 //    method that puts all categories in array
-    public static List<Category> all() {
+    public static List<Squad> all() {
         return instances;
     }
     public static void clear() {
@@ -52,7 +52,7 @@ public class Category {
     public int getId() {
         return mId;
     }
-    public static Category find(int id) {
+    public static Squad find(int id) {
         return instances.get(id - 1);
     }
 

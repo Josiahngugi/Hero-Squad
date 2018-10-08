@@ -2,12 +2,12 @@
 <div class="row justify-content-center">
     <div class="col-md-8">
         <div class="col-md-10">
-<h1 class="text-center text-danger">$category.getName() tasks:</h1>
+<h1 class="text-center text-danger">$squad.getName() tasks:</h1>
 
 <ul>
-    #foreach($task in $category.getTasks())
+    #foreach($task in $squad.getTasks())
     <li>
-        <P>Hero Properties <p class="text-success">Squad properties &nbsp;<a class="btn btn-outline-info" href="/categories/$category.getId()/tasks/new">Add new Hero</a>&nbsp;<a class="btn btn-outline-success" href="/categories">Back</a></p><hr></P>
+        <P>Hero Properties <p class="text-success">Squad properties &nbsp;<a class="btn btn-outline-info" href="/categories/$squad.getId()/tasks/new">Add new Hero</a>&nbsp;<a class="btn btn-outline-success" href="/categories">Back</a></p><hr></P>
         <span class="text-danger">Hero name:</span> $task.getDescription()<br>
         <span class="text-danger">Hero Age:</span>$task.getAge()<br>
         <span class="text-danger">Hero Special Power:</span>$task.getMpower()
