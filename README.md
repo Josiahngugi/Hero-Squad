@@ -76,7 +76,7 @@ This software uses following open source packages.
 - [Latest SDK](https://github.com/chjj/marked)<br>
 * Clone or Deploy this program from my Github Repository, or Fork It<br>
 *Initialise It in your Local Machine<br>
-*Open it With IDE
+*Open it With Lastest IDE
 
 ## Deployment
 
