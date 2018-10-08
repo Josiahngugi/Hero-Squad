@@ -35,43 +35,20 @@
 
 ## Key Features
 
-* LivePreview - Make changes, See changes
-  - Instantly see what your Markdown documents look like in HTML as you create them.
-* Sync Scrolling
-  - While you type, LivePreview will automatically scroll to the current location you're editing.
-* GitHub Flavored Markdown  
-* Syntax highlighting
-* [KaTeX](https://khan.github.io/KaTeX/) Support
-* Dark/Light mode
-* Toolbar for basic Markdown formatting
-* Supports multiple cursors
-* Save the Markdown preview as PDF
-* Emoji support in preview :tada:
-* App will keep alive in tray for quick usage
-* Full screen mode
-  - Write distraction free.
-* Cross platform
-  - Windows, macOS and Linux ready.
+* This is a a program that allowas users to create Squads and in them add Heros that have various powers and of different characters.
+* The program collect user data through form that a well designed by latest technology of bootstrap and material design
+*The program also has an appealing user interface that anybody would feel at asy using it within minumum time introduced to it.
+* The program is developed using Spark java technologies and designed using agile Methodlogy that makes the program Scalable and Flexible
+* Link to Live Site
 
 ## Technologies Used
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
-
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
-
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+The program is designed and developed using latest Technology, Hence making it Scalable and flexible.The following are Technologies USed:
+*Java
+*Spark
+*Boostrap
+*Html 5
+*Css
 
 
 ## Program Specs.
@@ -82,17 +59,16 @@ You can [download](https://github.com/amitmerchant1990/electron-markdownify/rele
 
 This software uses following open source packages.
 
-- [Electron](http://electron.atom.io/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
-- [showdown](http://showdownjs.github.io/showdown/)
-- [CodeMirror](http://codemirror.net/)
-- Emojis are taken from [here](https://github.com/arvida/emoji-cheat-sheet.com)
-- [highlight.js](https://highlightjs.org/)
+- [Java Runtime Environment :V9](#)
+- [Latest Browsers](#)
+- [Latest SDK](https://github.com/chjj/marked)
+* Clone or Deploy this program from my Github Repository, or Fork It
+*Initialise It in your Local Machine
+*Open it With IDE
 
 ## Deployment
 
-[markdownify-web](https://github.com/amitmerchant1990/markdownify-web) - Web version of Markdownify
+You can have this Program Deployed into you choice Deployement Service since this program is under MIT lincence.
 
 ## Support
 
@@ -106,9 +82,8 @@ This software uses following open source packages.
 
 ## You may also like...
 
-- [Pomolectron](https://github.com/amitmerchant1990/pomolectron) - A pomodoro app
-- [Correo](https://github.com/amitmerchant1990/correo) - A menubar/taskbar Gmail App for Windows and macOS
-
+- [Caeser Cipher](#) - Caeser Cipher
+- [Github Clone](https://github.com/amitmerchant1990/correo) - Github clone
 ## License
 
 MIT
