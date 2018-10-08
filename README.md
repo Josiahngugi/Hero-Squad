@@ -31,11 +31,11 @@
   <a href="#license">License</a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+
 
 ## Key Features
 
-* This is a a program that allowas users to create Squads and in them add Heros that have various powers and of different characters.<br>
+* This is a a program that allows users to create Squads and in them add Heros that have various powers and of different characters.<br>
 * The program collect user data through form that a well designed by latest technology of bootstrap and material design<br>
 *The program also has an appealing user interface that anybody would feel at asy using it within minumum time introduced to it.<br>
 * The program is developed using Spark java technologies and designed using agile Methodlogy that makes the program Scalable and Flexible<br>
@@ -46,7 +46,7 @@
 The program is designed and developed using latest Technology, Hence making it Scalable and flexible.The following are Technologies USed:
 *Java<br>
 *Spark<br>
-*Boostrap<br>
+*Bootstrap<br>
 *Html 5<br>
 *Css
 
