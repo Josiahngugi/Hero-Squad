@@ -43,7 +43,7 @@
 
 ## Technologies Used
 
-The program is designed and developed using latest Technology, Hence making it Scalable and flexible.The following are Technologies USed:
+The program is designed and developed using latest Technology, Hence making it Scalable and flexible.The following are Technologies USed:<br>
 *Java<br>
 *Spark<br>
 *Boostrap<br>
