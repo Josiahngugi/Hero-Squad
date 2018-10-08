@@ -1,0 +1,21 @@
+<h1 class="text-danger text-center">Add a Squad</h1>
+
+<p>Add a squad here:</p>
+
+<form action="/categories" method="post">
+    <div class="form-group">
+    <label for="name">Squad name</label>
+    <input id="name" name="name" type="text" class="form-control"required>
+    </div>
+
+    <div class="form-group">
+        <label for="dedication">Dedication</label>
+        <input id="dedication" name="dedication" type="text" class="form-control" placeholder="fighting ,sexism, computer illiteracy" required>
+    </div>
+
+    <div class="form-group">
+        <label for="size">Squad Size</label>
+        <input id="size" name="size" type="text" class="form-control"  required placeholder="integer numbers only">
+    </div>
+    <button type="submit" class="btn btn-success">Add Squad</button>
+</form>

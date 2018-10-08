@@ -12,7 +12,6 @@ public class App{
         String layout = "templates/layout.vtl";
 
 //        heroku
-
         ProcessBuilder process = new ProcessBuilder();
         Integer port;
         if (process.environment().get("PORT") != null) {
