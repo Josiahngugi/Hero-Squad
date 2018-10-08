@@ -35,19 +35,19 @@
 
 ## Key Features
 
-* This is a a program that allowas users to create Squads and in them add Heros that have various powers and of different characters.
-* The program collect user data through form that a well designed by latest technology of bootstrap and material design
-*The program also has an appealing user interface that anybody would feel at asy using it within minumum time introduced to it.
-* The program is developed using Spark java technologies and designed using agile Methodlogy that makes the program Scalable and Flexible
+* This is a a program that allowas users to create Squads and in them add Heros that have various powers and of different characters.<br>
+* The program collect user data through form that a well designed by latest technology of bootstrap and material design<br>
+*The program also has an appealing user interface that anybody would feel at asy using it within minumum time introduced to it.<br>
+* The program is developed using Spark java technologies and designed using agile Methodlogy that makes the program Scalable and Flexible<br>
 * Link to Live Site
 
 ## Technologies Used
 
 The program is designed and developed using latest Technology, Hence making it Scalable and flexible.The following are Technologies USed:
-*Java
-*Spark
-*Boostrap
-*Html 5
+*Java<br>
+*Spark<br>
+*Boostrap>br>
+*Html 5<br>
 *Css
 
 
@@ -73,9 +73,9 @@ This software uses following open source packages.
 
 - [Java Runtime Environment :V9](#)
 - [Latest Browsers](#)
-- [Latest SDK](https://github.com/chjj/marked)
-* Clone or Deploy this program from my Github Repository, or Fork It
-*Initialise It in your Local Machine
+- [Latest SDK](https://github.com/chjj/marked)<br>
+* Clone or Deploy this program from my Github Repository, or Fork It<br>
+*Initialise It in your Local Machine<br>
 *Open it With IDE
 
 ## Deployment
