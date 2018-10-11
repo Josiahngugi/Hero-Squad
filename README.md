@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  ![Squad](logosquad.png)
+  ![Squad](./logosquad.png)
   <br>
   Hero Squad
   <br>
