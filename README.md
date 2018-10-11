@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="#"><img src="src/main/resources/public/images/logo squad.png" alt="Josiah"></a>
+  ![Squad](logosquad.png)
   <br>
   Hero Squad
   <br>
