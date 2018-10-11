@@ -1,6 +1,6 @@
 <div class="row"></div>
 <div class="col-md-10">
-<h1 class=" text-center text-success">All Squads &nbsp;<a class="text-center btn btn-danger" href="/categories/new">Add New Squad</a></h1>
+<h1 class=" text-center text-success">All Squads</h1>
 <ul>
     #foreach ($Hero in $categories)
     <li><a href="/categories/$Hero.getId()">
@@ -14,6 +14,7 @@
     </li>
     #end
 </ul>
-<a class="text-center" href="/categories/new">Add New Squad</a>
+    <h5 class="text-center text-success">Unfortunately you dont have a Squads, Please create!!!</h5>
+    <h1 class="text-center"><a class="text-center btn btn-danger" href="/categories/new">Add New Squad</a></h1>
 </div>
 </div>

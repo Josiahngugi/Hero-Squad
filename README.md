@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="#"><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.png" alt="Markdownify" width="200"></a>
+  <a href="#"><img src="src/main/resources/public/images/logo squad.png" alt="Josiah"></a>
   <br>
   Hero Squad
   <br>
