@@ -1,9 +1,6 @@
+![Squad](./logosquad.png)
 <h1 align="center">
-  <br>
-  ![Squad](./logosquad.png)
-  <br>
   Hero Squad
-  <br>
 </h1>
 
 <h4 align="center">Hero Squad  program where Squads Acts against each other <a href="#" target="_blank">Hero Squad</a>.</h4>
